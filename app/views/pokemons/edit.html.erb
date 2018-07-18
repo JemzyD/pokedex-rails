@@ -1,3 +1,4 @@
+<p><%= image_tag @pokemon.img %></p>
 <%= form_for @pokemon, url: pokemon_path(@pokemon) do |form| %>
   <%= render :partial => 'form', :locals => {:form => form} %>
   <p>
