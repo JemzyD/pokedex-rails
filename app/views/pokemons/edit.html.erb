@@ -1,0 +1,12 @@
+<%= form_for @pokemon, url: pokemon_path(@pokemon) do |form| %>
+  <%= render :partial => 'form', :locals => {:form => form} %>
+  <p>
+    <%= form.submit 'Save Changes' %>
+  </p>
+<% end %>
+
+<%= form_for @pokemon, url: pokemon_path(@pokemon), :method => :delete, :data => {:confirm => "Are you sure you want to delete this pokemon?"} do |form| %>
+  <p>
+    <%= form.submit 'Delete Pokemon' %>
+  </p>
+<% end %>

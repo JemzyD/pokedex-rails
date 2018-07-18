@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  num: MyText
+  name: MyText
+  img: MyText
+  height: MyText
+  weight: MyText
+  candy: MyText
+  candy_count: MyText
+  egg: MyText
+  avg_spawns: MyText
+  spawn_time: MyText
+
+two:
+  num: MyText
+  name: MyText
+  img: MyText
+  height: MyText
+  weight: MyText
+  candy: MyText
+  candy_count: MyText
+  egg: MyText
+  avg_spawns: MyText
+  spawn_time: MyText

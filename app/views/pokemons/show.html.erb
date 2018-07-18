@@ -1,0 +1,9 @@
+<% @pokemon.attributes.each do |key, value| %>
+  <p><%= key %>: <%= value %></p>
+<% end %>
+
+<%= form_for @pokemon, url: edit_pokemon_path(@pokemon), :method => :get do |form| %>
+  <p>
+    <%= form.submit 'Edit' %>
+  </p>
+<% end %>

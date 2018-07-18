@@ -1,0 +1,6 @@
+<%= form_for @pokemon, url: pokemons_path do |form| %>
+  <%= render :partial => 'form', :locals => {:form => form} %>
+  <p>
+    <%= form.submit "Create Pokemon" %>
+  </p>
+<% end %>
